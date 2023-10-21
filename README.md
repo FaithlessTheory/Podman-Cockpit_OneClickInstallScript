@@ -18,3 +18,6 @@ Packages:
 
 ## What else does the script do?
 The script also adds firewall rules for cockpit, creates and runs the websocket for the service. After which you should have the service automatically start on boot.
+
+## How to use?
+Download the script (Cockpit_OCIS.sh) and then run `chmod +x Cockpit_OCIS.sh` and then run the file with the `./Cockpit_OCIS.sh` command, from within the same directory.
