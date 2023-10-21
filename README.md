@@ -1,2 +1,6 @@
-# Podman-Cockpit_OneClickInstallScript
-One click install script for installing Cockpit and dependencies for Podman, SELinux and Networking on OpenSuse
+# Podman & Cockpit One Click Install Script
+One click install script for installing Cockpit and dependencies for Podman, SELinux and Networking on OpenSUSE
+
+This script installs Cockpit and the specified extensions, and it ensures that the necessary services are started and the firewall is configured. Please note that you can customize the list of extensions and packages to meet your specific server management needs.
+
+I use this script to quickly spin up OpenSUSE based Podman conatiner systems with Cockpit Web UI. Feel free to use as you want.
