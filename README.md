@@ -8,13 +8,13 @@ I use this script to quickly spin up OpenSUSE based Podman conatiner systems wit
 ## What does the script install by default?
 
 Packages:
-- cockpit ,Cockpit Web UI & Service
-- cockpit-storaged ,The Storage management extension
-- cockpit-networkmanager ,Network Manager extension
-- cockpit-machines ,Virtual Machines management extension
-- cockpit-podman ,Podman containers management extension
-- cockpit-selinux ,SELinux management extension
-- cockpit-tukit ,Transactional Update kit extension from OpenSUSE
+- `cockpit` ,Cockpit Web UI & Service
+- `cockpit-storaged` ,The Storage management extension
+- `cockpit-networkmanager` ,Network Manager extension
+- `cockpit-machines` ,Virtual Machines management extension
+- `cockpit-podman` ,Podman containers management extension
+- `cockpit-selinux` ,SELinux management extension
+- `cockpit-tukit` ,Transactional Update kit extension from OpenSUSE
 
 ## What else does the script do?
 The script also adds firewall rules for cockpit, creates and runs the websocket for the service. After which you should have the service automatically start on boot.
