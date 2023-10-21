@@ -1,3 +1,4 @@
+/assets/images/cockpit_podman.png
 # Podman & Cockpit One Click Install Script
 One click install script for installing Cockpit and dependencies for Podman, SELinux and Networking on OpenSUSE
 
